@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="location" placeholder="Enter a location">
+        <button id="search">Search</button>
+        <button id="toggle-units">Toggle Units (C/F)</button>
+        <button id="view-history">View History</button>
+        <div id="loader" class="hidden">Loading...</div>
+        <div id="weather-container"></div>
+        <div id="forecast-container"></div>
+    </div>
+    <div id="history-page" class="hidden">
+        <button id="back">Back</button>
+        <ul id="history-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
